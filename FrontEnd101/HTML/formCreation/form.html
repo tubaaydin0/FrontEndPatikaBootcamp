@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Oluşturma</title>
+</head>
+<body>
+    
+
+    <form >
+        <!-- Ad Soyad alanı-->
+        <label for="firstName">Ad: </label>
+        <input type="text" id:"fistName" name="firstName"> <br><br>
+        <label for="lastName">Soyad: </label>
+        <input type="text" id="lastName" name="lastName"> <br><br>
+
+        <!-- e mail alanı-->
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- parola alanı-->
+        <label for="password">Şifre: </label>
+        <input type="password" id="passw" name="passw" minlength="8" required><br><br>
+
+        <!-- cinsiyet seçim alanı-->
+        <label for="gender">Cinsiyet: </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın       </label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Erkek</label><br><br>
+
+        <!--Favori meyve seçim alanı-->
+        <label for="fruits">Favori meyve: </label>
+        <select name="fruit" id="fruit">
+            <option value="strawberry">Çilek</opion>
+            <option value="banana">Muz</opion>
+            <option value="cherry">Kiraz</opion>
+            <option value="pineapple">Ananas</opion>        
+        </select><br><br>
+
+        <!-- Mesaj alanı-->
+        <label for="message">Mesaj: </label><br>
+        <textarea name="message" id="msg" cols="30" rows="5"></textarea><br><br>
+
+        <!--Gönder butonu-->
+        <input type="submit" value="Gönder">
+
+
+    </form>
+
+
+
+</body>
+</html>
