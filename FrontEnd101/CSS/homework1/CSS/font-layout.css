@@ -1,0 +1,43 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+    color: crimson;
+;
+  
+}
+h2{
+    font-size: 30px;
+    color: darkred;
+}
+h3{
+    font-size: 25px;
+    color: chocolate;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+nav {
+    font-size: 20px;
+
+}
+
+.font-style{
+    font-style: italic;
+}
+
+
+
+   
