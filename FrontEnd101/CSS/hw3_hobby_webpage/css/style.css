@@ -1,0 +1,326 @@
+html {
+    scroll-behavior: smooth; 
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* header  */
+header {
+    background: #A84B21 ;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.801); 
+    position: sticky; 
+    width: 100%;
+    border-bottom: 1px solid #80A09D;
+    flex-wrap: wrap;
+
+
+}
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    padding:0 0; 
+    
+
+}
+.logo {
+    vertical-align: middle;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li a { 
+    font-weight: bold;
+    margin-left: 20px;
+    color: #CFCFCF;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all .5s ease-in-out;
+  
+
+}
+
+.menu li a:hover {
+    background:#80A09D;
+    letter-spacing: 1px; 
+}
+
+.page_name {
+    text-transform: uppercase;
+    color:#CFCFCF;
+    font-family: 'Lemon', sans-serif;
+    font-size: 25px;
+    
+
+}
+.logo-heading {
+    font-family: 'Lemon', sans-serif;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+section {
+    position: relative;
+    padding: 100px 0;
+    background:#DDCDBF;
+    border-top: 2px solid #80A09D;
+    border-bottom: 2px solid #80A09D;
+    
+    
+}
+.section_title {
+    margin-bottom: 30px; 
+   
+}
+.section_title h2 {
+    position: relative;
+    text-align: center;
+    color: #A84B21;
+    font-family: 'Lemon',sans-serif;
+    font-size: 30px;
+    transition: all .5s ease-in-out; 
+}
+.section_title h2:hover {
+   
+   background: #CFCFCF;
+
+}
+.section_title p {
+    color: #864C4A;
+}
+
+/* HOMEPAGE*/
+
+.inner_homepage{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    
+
+}
+.child_homepage {
+    margin: auto;
+    flex-basis: 45%;
+    color: #864C4A;
+}
+.child_homepage p {
+    font-size: 15px;
+    
+}
+.child_homepage span {
+    
+    font-family: 'Lemon';
+    font-size: 20px;
+    font-style: italic;
+    color: #864C4A;
+}
+
+.child_homepage i {
+    color: #864C4A;
+    font-family: 'Lemon';
+}
+button{
+    padding: 13px 26px;
+    margin-top: 20px;
+    font-weight: bold;
+    background: #A84B21;
+    color:#DDCDBF;
+    border-radius: 15px;
+    border: 1px solid #80A09D ;
+    cursor: pointer; 
+    transition: all .3s ease;
+    margin-left: 20%;
+    
+}
+button:hover{
+    letter-spacing: 1px;
+    background: #80A09D;
+}
+
+/*KNITTING & GLASS PAINTING & PUNCH*/
+.inner_hobbies {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+   
+    
+}
+
+
+.child_hobbies{
+    
+    padding: 20px 10px 20px 10px;
+    flex-basis: 30%;
+    color: #864C4A;
+    background-color:#CFCFCF;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    transition: all .5s ease-in-out3s;
+    width: 80%;
+    margin: 10px auto;
+    
+
+}
+
+.child_hobbies:hover {
+    border: 2px solid #80A09D;
+
+}
+.child_hobbies h3{
+    
+    font-family: 'Lemon';
+    font-size: 18px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.child_hobbies p {
+    font-size: 13px;
+}
+
+.child_hobbies img {
+    width:200px;
+    height: 300px;
+    margin-left: 20%;
+    
+}
+
+/* ABOUT US*/
+.inner_about {
+    display: flex;
+    flex-wrap: wrap;
+    color: #864C4A ;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.child_about {
+    margin-bottom: 20px;
+    flex-basis: 28%; 
+
+}
+
+
+.img_about img {
+    height: 110px;
+    width: 120px;
+    border-radius: 100px;
+ 
+}
+
+.child_about a {
+    display: inline-block;
+    color:  #80A09D ;
+    margin: 10px 0;
+}
+
+.child_about a:hover {
+    text-decoration: underline;
+}
+
+/*CONTACT*/
+
+
+
+.inner_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.child_contact{
+    margin: 0 auto;
+}
+
+.child_contact img {
+    width: 50%;
+}
+
+
+form {
+    background:#A84B21 ;
+    border-radius: 5px;
+    padding:  50px 40px; 
+    color: black;
+    width: 100%;
+    
+   
+}
+
+.child_contact input, textarea {
+    border: none;
+    resize: none;
+    width: 90%;
+    height: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: #CFCFCF;
+    transition:  .3s ease-in-out;
+    line-height: normal;
+}
+
+.child_contact form input, textarea:focus {
+    color: white;
+    
+
+}
+
+.child_contact form input:last-child {
+    font-weight: bold;
+    margin-bottom: 0;
+    background: #CFCFCF;
+    color:#A84B21  ;
+    border: 1px solid #80A09D ;
+    cursor: pointer; 
+    transition: all .3s ease;
+    
+}
+
+.child_contact form input:last-child:hover {
+    letter-spacing: 1px;
+    background: #80A09D;
+}
+
+footer {
+    display: flex;
+    background: #80A09D;
+    font-family: 'Montserrat',sans-serif;
+    color: #864C4A;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+
+footer p {
+
+    font-style: oblique;
+    font: size 15px; ;
+}
