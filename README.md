@@ -1,2 +1,2 @@
 # FrontEndPatikaBootcamp
- Bbootcamp sürecinde yapılan ödevler yer almaktadır.
+ Bootcamp sürecinde yapılan ödevler yer almaktadır.
