@@ -1,2 +1,2 @@
 # FrontEndPatikaBootcamp
- patika.dev
+ Bbootcamp sürecinde yapılan ödevler yer almaktadır.
