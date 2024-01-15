@@ -1,0 +1,35 @@
+body {
+    font-family: 'PT Serif', sans-serif;
+}
+
+.bg-yellow {
+    background-color: #FFC017; 
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid rgba(41, 41, 41,1);
+}
+
+.aside-buttons li {
+    margin-bottom: 10px;
+  
+}
+
+.aside-buttons li a {
+    border-radius: 20px;
+    color: black;
+    background-color: #F2F2F2;
+    border: 0;
+   
+}
+
+.button  {
+    border-radius: 20px;
+    color: rgb(41, 37, 37);
+    background-color: #F2F2F2;
+    border: 0;
+}
+
+.border-top-dark {
+    border-top: 1px solid rgba(230,230,230,1);
+}
