@@ -3,14 +3,6 @@ name=`${name[0].toUpperCase()}${name.slice(1).toLowerCase()}`;
 let addName= document.querySelector('#myName')
 addName.innerHTML=name;
 
-/*function showTime(){
-    let today=new Date();
-
-    let hour= today.getHours() +" : "+ today.getMinutes() +" : "+ today.getSeconds() +" "+ today.getDay();
-
-    let showTime= document.querySelector('#myClock');
-    showTime.innerHTML=hour; 
-}*/
 function showTime(){
     const today = new Date();
     let hour = today.getHours(); 
