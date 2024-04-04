@@ -1,0 +1,15 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #443135;
+  background: -webkit-linear-gradient(to right, #131524, #443135);
+  background: linear-gradient(to right, #131524, #443135);
+  color: #ffff;
+
+}
