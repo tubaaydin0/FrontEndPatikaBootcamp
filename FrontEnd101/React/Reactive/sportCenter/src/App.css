@@ -1,0 +1,958 @@
+/*----HEADER START----*/
+
+
+#header {
+  /*Navbar Sabitlenemedi Başlıktaki group ve practice yanyana olmadı*/
+  min-height: 94vh;
+  width: auto;
+  background-image: url(./src/assets/hero-man.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+
+
+}
+
+.banner-frame {
+  width: 100%;
+  background-color: transparent;
+  z-index: 5000;
+  position: fixed;
+}
+
+/*Değerlendirme Kriteri 9*/
+.navbar-bground {
+  background-color: #355592;
+
+
+}
+
+#header .container {
+  width: 70%;
+
+}
+
+#header .container .banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  padding-top: 1%;
+  padding-right: 5%;
+  z-index: 1000;
+
+
+}
+
+
+
+
+#navbar {
+  padding: 0;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+#navbar li {
+  position: relative;
+  padding: 10px 10px;
+
+}
+
+#navbar li a {
+  font-weight: bold;
+  color: aliceblue;
+
+}
+
+#navbar li a span {
+  background-color: #ED9C18;
+  padding: 2px 8px;
+  border-radius: 5px;
+
+}
+
+.container {
+  width: 80%;
+}
+
+#header .content {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 15%;
+  color: white;
+
+}
+
+#header .content .pFirst {
+  background-color: #36558F;
+  display: inline;
+  padding: 2px 15px;
+  border-radius: 5px;
+  line-height: 20px;
+
+
+}
+
+#header .content h1 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 4.2rem;
+
+
+
+}
+
+#header .content p {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+
+
+
+}
+
+#header .content .pSecond {
+  background-color: rgba(0, 0, 0, 0.4);
+  line-height: 25px;
+
+
+
+
+}
+
+
+#header .content .bottom-content {
+  display: flex;
+  margin-top: -9px;
+
+}
+
+#header .content .pThird {
+  background-color: #36558F;
+  display: inline;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-left: 10px;
+  height: 38px;
+
+}
+
+#header .content .pFourth {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline;
+  margin-left: 40px;
+  padding: 5px 15px;
+  border-radius: 2px;
+  border: 1px solid white;
+  height: 38px;
+
+}
+
+/*----HEADER END----*/
+
+
+
+/*----PROCESS BUTTON START----*/
+
+.process-content {
+
+  gap: 3%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+#process button {
+  background-color: #FFFFFF;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  /* Yazıları dikeyde sırala */
+  align-items: center;
+  /* Yazıları dikeyde ortala */
+  line-height: 200%;
+
+
+}
+
+
+#process button span {
+  color: #36558F;
+
+  font-size: 20px;
+
+
+}
+
+/*----PROCESS BUTTON END----*/
+
+
+/* ----CLASSES START---- */
+
+.bgGradient {
+
+  background: linear-gradient(70deg, #FFFFFF 45%, #F6F6F7 45%);
+
+
+}
+
+
+#classes .container {
+  width: 75%;
+
+}
+
+.classes-buttons-frame {
+
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+#classes h3,
+#trainers h3,
+#purchase h3,
+#review h3,
+#contact h3 {
+  color: #36558F;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+
+.title-classes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-classes p {
+  margin: 40px 20% 5px 20%;
+}
+
+
+.linear {
+
+  width: 80px;
+  height: 8px;
+  background-color: orange;
+  border-radius: 5px;
+
+
+
+}
+
+#classes button {
+  background-color: #36558F;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+
+/*Değerlendirme Kriteri 11*/
+
+#classes .btn1,
+.btn-solo,
+.btn-stretching {
+  position: relative;
+  border: 0
+}
+
+#classes .btn1-bottom {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: "";
+  top: 99%;
+  left: 23%;
+  background-color: transparent;
+  clip-path: polygon(86% 0, 14% 0, 50% 24%);
+
+}
+
+#classes .btn1 :hover {
+
+  background-color: orange;
+
+}
+
+#classes .btn1:hover .btn1-bottom {
+  background-color: orange;
+
+
+}
+
+#classes .solo-bottom {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: "";
+  top: 99%;
+  left: 20%;
+  background-color: transparent;
+  clip-path: polygon(86% 0, 14% 0, 50% 24%);
+
+}
+
+#classes .btn-solo :hover {
+
+  background-color: orange;
+
+}
+
+#classes .btn-solo:hover .solo-bottom {
+  background-color: orange;
+
+
+}
+
+#classes .stretching-bottom {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: "";
+  top: 99%;
+  left: 35%;
+  background-color: transparent;
+  clip-path: polygon(86% 0, 14% 0, 50% 24%);
+
+}
+
+#classes .btn-stretching :hover {
+
+  background-color: orange;
+
+}
+
+#classes .btn-stretching:hover .stretching-bottom {
+  background-color: orange;
+
+
+}
+
+
+#classes-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.classes-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+
+
+}
+
+#classes-content img {
+  width: 400px;
+}
+
+#classes-content h5 {
+  font-weight: bold;
+  line-height: normal3;
+
+}
+
+
+/* ----CLASSES END---- */
+
+/* ----BMI CALCULATOR START---- */
+
+#bmiCalculator,
+#purchase,
+#contact {
+  background-color: #FFFFFF;
+}
+
+#bmiCalculator .container,
+#trainers .container,
+#review .container,
+#purchase .container,
+#contact .container {
+  width: 65%;
+}
+
+.bmi-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 60px;
+
+}
+
+.bmi-content h2 {
+  color: #36558F;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 15px;
+
+}
+
+.bmi-content form {
+  display: flex;
+  gap: 1px;
+
+
+}
+
+.bmi-content input {
+  width: 70%;
+  margin: 0 5px 30px 10px;
+  padding-left: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.bmi-content .input-right {
+  margin-left: -30px;
+}
+
+section .bmi-img1 {
+  position: relative;
+  width: 400px;
+
+
+}
+
+section .bmi-img2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  content: "";
+  top: 100%;
+  left: 0%;
+  background-color: orange;
+  clip-path: polygon(100% 100%, 0 100%, 50% 0);
+
+}
+
+/* ----BMI CALCULATOR END---- */
+
+/* ----TRAINERS START---- */
+.trainers-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  gap: 3%;
+
+}
+
+/*Değerlendirme Kriteri 12*/
+
+.trainers-img .images1 img {
+  width: 80%;
+  position: relative;
+  z-index: 2;
+  border: 1px solid orange;
+  border-radius: 5px;
+
+  flex-wrap: wrap;
+
+}
+
+.trainers-img .images1 {
+  position: relative;
+
+}
+
+.trainers-img .images2 {
+  position: absolute;
+  content: "";
+  width: 84%;
+  height: 25%;
+  top: 50%;
+  left: 49%;
+  transform: translate(-61%, -50%);
+  z-index: 1;
+  background-color: #36558F;
+
+}
+
+.trainers-img .images3 {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 106%;
+  top: -3%;
+  left: 30%;
+  z-index: 1;
+  background-color: #36558F;
+
+}
+
+.trainers-img .info {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  content: "";
+  color: white;
+  width: 70%;
+  height: 30%;
+  top: 65%;
+  left: 4%;
+  z-index: 3;
+  background-color: transparent;
+  color: transparent;
+  clip-path: polygon(0% 15%,
+      15% 15%,
+      15% 0%,
+      85% 0%,
+      85% 15%,
+      100% 15%,
+      100% 85%,
+      85% 85%,
+      85% 100%,
+      15% 100%,
+      15% 85%,
+      0% 85%);
+
+
+}
+
+.trainers-img .info p {
+  margin-top: 5%;
+  line-height: 120%;
+  font-size: 1.4 vw;
+  font-weight: lighter;
+}
+
+
+#trainers .images1:hover .images2 {
+
+  height: 50%;
+
+}
+
+#trainers .images1:hover .images3 {
+  left: 15%;
+  width: 50%;
+
+}
+
+#trainers .images1:hover .info {
+  /*resmin sağ boşluğa tıklayınca da oluyor?*/
+  background-color: #36558F;
+  color: white;
+}
+
+/* ----TRAINERS END---- */
+
+
+/* ----REVIEW START---- */
+.purchase-list {
+  gap: 1.5%;
+  padding-right: 4%;
+
+}
+
+
+.purchase-price {
+  font-size: 11px;
+  font-weight: bold;
+
+}
+
+.purchase-price span {
+  text-decoration: line-through;
+}
+
+.shopping-card {
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+}
+
+.card-style {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.review-person {
+  display: flex;
+  gap: 2%;
+}
+
+.review-person img {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.review-person-info h5 {
+  font-size: 1rem;
+}
+
+.review-person-info p {
+  font-size: 0.8rem;
+}
+
+
+.review-box-left,
+.review-box-right {
+  background-color: #36558F;
+  color: white;
+  text-align: left;
+  padding-bottom: 0.1%;
+  padding-top: 3%;
+  line-height: 150%;
+  position: relative;
+  font-size: small;
+
+}
+
+.frame-left {
+  position: absolute;
+  width: 7%;
+  /* Mobile geçince şekil uzuyor */
+  height: 25%;
+  top: 99%;
+  left: 0%;
+  background-color: #36558F;
+  opacity: 60%;
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+
+}
+
+.frame-right {
+  position: absolute;
+  width: 7%;
+  height: 25%;
+  top: 99%;
+  left: 93%;
+  background-color: #36558F;
+  opacity: 60%;
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+
+}
+
+
+
+/* ----REVIEW END---- */
+
+/* ----CONTACT START---- */
+.form-space input {
+  background-color: #F1F8FF;
+  width: 27vw;
+  border: 0;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+
+
+.form-space input::placeholder,
+.form-space textarea::placeholder {
+  font-size: small;
+}
+
+.form-space textarea {
+  background-color: #F1F8FF;
+  width: 27vw;
+  border: 0;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+
+
+.contact-info {
+  display: flex;
+  gap: 5%;
+
+
+}
+
+.contact-info p {
+  font-size: 0.8rem;
+
+}
+
+.map iframe {
+  width: 27vw;
+  height: 22vw;
+}
+
+/* ----CONTACT END---- */
+
+/* ----FOOTER START---- */
+footer {
+  background-color: #36558F;
+}
+
+footer .container {
+  width: 70%;
+
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-logo p {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.footer-other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  color: white;
+}
+
+.footer-other a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  line-height: 2rem;
+
+}
+
+.footer-other h5 {
+  letter-spacing: 0.05rem;
+  font-size: large;
+
+}
+
+/* ----FOOTER END---- */
+.menu-btn,
+.menu-icon {
+  display: none;
+}
+
+
+/*Değerlendirme Kriteri 7*/
+
+@media (max-width:576px) {
+  .for-screen {
+    display: none !important;
+  }
+
+  #header {
+    height: auto;
+  }
+
+
+  .container {
+    width: 100% !important;
+  }
+
+  /*Hamburger Menu START*/
+  .menu-btn {
+    /*display: block;*/
+  }
+
+  #navbar {
+    position: absolute;
+    transform: translateY(-150%);
+    /*navbarı göstermesin.*/
+  }
+
+  #header .container .banner {
+    width: 100%;
+  }
+
+  .menu-btn:checked~#navbar {
+    display: block;
+    text-align: center;
+    top: 5%;
+    left: 2%;
+    width: 95%;
+    transform: translateY(13%);
+    border-top: 0.05rem solid white;
+    box-shadow: 0 0.5rem 1rem white;
+    background-color: #355592;
+    flex-wrap: wrap;
+  }
+
+  .menu-btn:checked~#navbar ul {
+    display: block;
+    font-size: 1rem;
+    margin: 3rem 0;
+    padding: 0 2rem;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    width: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+  }
+
+  /*Hamburger Menu END*/
+
+
+  #header .content {
+    padding-top: 30%;
+  }
+
+  #header .content h1 {
+    font-size: 44px;
+  }
+
+  .group-practice-words {
+    display: flex;
+    gap: 5px;
+
+  }
+
+  #header .content .pThird {
+    margin-right: 0;
+    width: 98%;
+
+  }
+
+  #header .content .pFourth {
+    margin-top: 5px;
+    width: 98%;
+    margin-left: 10px !important;
+
+
+    border: 2px solid white;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+
+
+
+  }
+
+  .classes-buttons {
+
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    font-weight: bold;
+
+  }
+
+  .process-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .bmi-content h2 {
+    font-size: xx-large;
+  }
+
+  .bmi-content form {
+
+    flex-direction: column;
+
+
+
+  }
+
+  .bmi-content input {
+
+    margin: 0 !important;
+    width: 170px;
+  }
+
+  .bmi-content .input-right {
+    margin-left: 0 !important;
+  }
+
+  .bmi-img1 {
+    width: 90% !important;
+
+  }
+
+
+  .trainers-img {
+
+    flex-direction: column;
+    margin-left: 10%;
+
+  }
+
+  .purchase-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info p {
+    margin-left: 0;
+    font-size: 12px !important;
+  }
+
+
+  .form-space input {
+
+
+    width: 100%;
+    margin-bottom: 25px
+  }
+
+  .form-space textarea {
+    width: 100%;
+    margin-bottom: 12px
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 350px;
+
+
+  }
+
+  .footer-other {
+    margin-left: 0;
+
+  }
+
+
+}
